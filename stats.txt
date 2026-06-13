@@ -1,0 +1,30 @@
+PQC Wordlist Stats
+==================
+
+File: wordlist.txt
+Total words: 4096
+Language: English
+Encoding: UTF-8
+Line ending: LF
+Case: lowercase only
+Duplicates: none
+
+Word length:
+Minimum: 5
+Maximum: 10
+
+Rules:
+- One word per line
+- Lowercase a-z only
+- No spaces
+- No numbers
+- No symbols
+- No duplicate words
+- Sorted alphabetically: yes
+- Intended for PQC seed phrase generation
+
+SHA256:
+233427c3dea0a6c26c82e6c0b642f1a90830fc0fb9708d0328aa4ecd14dac5ff
+
+SHA3-512:
+c27c9c41516ea2e0cc59c41c399ab8a2941f4b1c5f99e6b8e8475ee2d34e14c921a7d798a43eab68680fec3cb940de59e7e052419fe08aefa08a933d18c4b2c2
