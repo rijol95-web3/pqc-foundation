@@ -1,30 +1,33 @@
-PQC Wordlist Stats
-==================
+PQC English Wordlist Standard
 
-File: wordlist.txt
-Total words: 4096
-Language: English
-Encoding: UTF-8
-Line ending: LF
-Case: lowercase only
-Duplicates: none
+Version: v1
+File: pqc_wordlist.txt
+Words: 4096
+Bits per word: 12
+Indexing: zero-based
+Index range: 0-4095
 
-Word length:
-Minimum: 5
-Maximum: 10
+Mnemonic entropy: 384 bits
+Mnemonic checksum: 12 bits
+Mnemonic length: 33 words
 
-Rules:
-- One word per line
-- Lowercase a-z only
-- No spaces
-- No numbers
-- No symbols
-- No duplicate words
-- Sorted alphabetically: yes
-- Intended for PQC seed phrase generation
+Signature standard: ML-DSA-65
+KDF standard: Argon2id
+Primary hash standard: SHA3-512
+
+Validation status: VALID
 
 SHA256:
 233427c3dea0a6c26c82e6c0b642f1a90830fc0fb9708d0328aa4ecd14dac5ff
 
+SHA512:
+b3995118df6601410eb360da2fba961a66d7a2772cfeb9eb75b80247d43021ae1d08922dbd99ca87e29c712e36fc46d974e1b766229acb4c4a44d4cca8162939
+
+SHA3-256:
+49dc94154e385e71b94a660483e39be5acb2d5f0115d35d2b1646fde5e5e6d3e
+
 SHA3-512:
 c27c9c41516ea2e0cc59c41c399ab8a2941f4b1c5f99e6b8e8475ee2d34e14c921a7d798a43eab68680fec3cb940de59e7e052419fe08aefa08a933d18c4b2c2
+
+Generated at UTC:
+2026-06-13T22:55:19.345836+00:00
