@@ -1,0 +1,31 @@
+[package]
+name = "pqc-wordlist"
+version = "1.0.0"
+edition = "2021"
+license = "MIT"
+description = "PQC Foundation English Wordlist Standard"
+repository = "https://github.com/rijol95-web3/pqc-foundation/rust-pqc-wordlist"
+homepage = "https://github.com/rijol95-web3/pqc-foundation"
+readme = "README.md"
+keywords = [
+"pqc",
+"post-quantum",
+"wordlist",
+"mnemonic",
+"sha3"
+]
+categories = [
+"cryptography"
+]
+
+include = [
+"src/lib.rs",
+"src/pqc_wordlist.txt",
+"README.md",
+"LICENSE"
+]
+
+[dependencies]
+sha3 = "0.10"
+hex = "0.4"
+once_cell = "1.21"
