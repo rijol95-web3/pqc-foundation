@@ -18,3 +18,6 @@ PQC English Wordlist Standard
 </p>
 
 
+<p align="center">
+  <img src="./assets/pqc-transaction.svg" alt="PQC Transaction Animation" />
+</p>
