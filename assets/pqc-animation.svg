@@ -1,0 +1,110 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="pqcGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a855f7"/>
+      <stop offset="50%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#39ff14"/>
+    </linearGradient>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <style>
+      .bg { fill: #050816; }
+      .frame {
+        fill: rgba(15,23,42,0.75);
+        stroke: url(#pqcGrad);
+        stroke-width: 2;
+      }
+      .title {
+        font-family: Arial, sans-serif;
+        font-size: 92px;
+        font-weight: 900;
+        letter-spacing: 14px;
+        fill: url(#pqcGrad);
+        filter: url(#glow);
+      }
+      .subtitle {
+        font-family: monospace;
+        font-size: 22px;
+        letter-spacing: 6px;
+        fill: #94a3b8;
+      }
+      .text {
+        font-family: monospace;
+        font-size: 18px;
+        fill: #e2e8f0;
+      }
+      .neon {
+        stroke: url(#pqcGrad);
+        stroke-width: 3;
+        fill: none;
+        filter: url(#glow);
+        stroke-dasharray: 25 15;
+        animation: flow 2.5s linear infinite;
+      }
+      .orbit {
+        stroke: #22d3ee;
+        stroke-width: 1.5;
+        fill: none;
+        opacity: .75;
+        filter: url(#glow);
+        animation: pulse 2s ease-in-out infinite;
+      }
+      .particle {
+        fill: #a855f7;
+        filter: url(#glow);
+        animation: blink 1.4s ease-in-out infinite;
+      }
+      .secure {
+        fill: #39ff14;
+        filter: url(#glow);
+        animation: blink 2s ease-in-out infinite;
+      }
+
+      @keyframes flow {
+        from { stroke-dashoffset: 0; }
+        to { stroke-dashoffset: -80; }
+      }
+
+      @keyframes blink {
+        0%,100% { opacity: .35; }
+        50% { opacity: 1; }
+      }
+
+      @keyframes pulse {
+        0%,100% { opacity: .35; transform: scale(1); }
+        50% { opacity: 1; transform: scale(1.04); }
+      }
+    </style>
+  </defs>
+
+  <rect class="bg" width="1200" height="360" rx="26"/>
+  <rect class="frame" x="20" y="20" width="1160" height="320" rx="24"/>
+
+  <text x="600" y="115" text-anchor="middle" class="title">PQC</text>
+  <text x="600" y="160" text-anchor="middle" class="subtitle">POST QUANTUM CRYPTOGRAPHY</text>
+
+  <path class="neon" d="M90 245 C230 150, 360 310, 500 220 S760 130, 910 230 S1070 275, 1120 190"/>
+  <path class="neon" d="M90 190 C240 285, 370 115, 520 205 S770 310, 930 175 S1060 120, 1120 235"/>
+
+  <circle cx="600" cy="220" r="52" class="orbit"/>
+  <ellipse cx="600" cy="220" rx="135" ry="38" class="orbit" transform="rotate(24 600 220)"/>
+  <ellipse cx="600" cy="220" rx="135" ry="38" class="orbit" transform="rotate(-24 600 220)"/>
+
+  <circle cx="600" cy="220" r="13" class="secure"/>
+  <circle cx="420" cy="205" r="7" class="particle"/>
+  <circle cx="780" cy="210" r="7" class="particle"/>
+  <circle cx="250" cy="235" r="6" class="particle"/>
+  <circle cx="965" cy="205" r="6" class="particle"/>
+
+  <text x="170" y="300" class="text">ML-DSA-65</text>
+  <text x="430" y="300" class="text">SHA3-512</text>
+  <text x="700" y="300" class="text">QPoW-512</text>
+  <text x="940" y="300" class="text">pqc_ ADDRESS</text>
+</svg>
