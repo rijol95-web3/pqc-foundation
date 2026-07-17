@@ -154,7 +154,7 @@
     <g class="card" transform="translate(60, 145)">
       <rect x="0" y="0" width="245" height="170" rx="22" class="card-bg"/>
       <text x="122" y="45" text-anchor="middle" class="city">🇺🇸 New York</text>
-      <text x="122" y="100" text-anchor="middle" class="time">10:08<tspan class="seconds">:24</tspan></text>
+      <text x="122" y="100" text-anchor="middle" class="time">11:39<tspan class="seconds">:32</tspan></text>
       <text x="122" y="132" text-anchor="middle" class="date">Fri, 17 Jul · EDT</text>
       <circle cx="30" cy="140" r="5" class="pulse-dot"/>
     </g>
@@ -162,15 +162,15 @@
     <g class="card" transform="translate(355, 145)">
       <rect x="0" y="0" width="245" height="170" rx="22" class="card-bg"/>
       <text x="122" y="45" text-anchor="middle" class="city">🇯🇵 Tokyo</text>
-      <text x="122" y="100" text-anchor="middle" class="time">23:08<tspan class="seconds">:24</tspan></text>
-      <text x="122" y="132" text-anchor="middle" class="date">Fri, 17 Jul · JST</text>
+      <text x="122" y="100" text-anchor="middle" class="time">00:39<tspan class="seconds">:32</tspan></text>
+      <text x="122" y="132" text-anchor="middle" class="date">Sat, 18 Jul · JST</text>
       <circle cx="30" cy="140" r="5" class="pulse-dot"/>
     </g>
     
     <g class="card" transform="translate(650, 145)">
       <rect x="0" y="0" width="245" height="170" rx="22" class="card-bg"/>
       <text x="122" y="45" text-anchor="middle" class="city">🇷🇺 Moscow</text>
-      <text x="122" y="100" text-anchor="middle" class="time">17:08<tspan class="seconds">:24</tspan></text>
+      <text x="122" y="100" text-anchor="middle" class="time">18:39<tspan class="seconds">:32</tspan></text>
       <text x="122" y="132" text-anchor="middle" class="date">Fri, 17 Jul · MSK</text>
       <circle cx="30" cy="140" r="5" class="pulse-dot"/>
     </g>
@@ -178,11 +178,11 @@
     <g class="card" transform="translate(945, 145)">
       <rect x="0" y="0" width="245" height="170" rx="22" class="card-bg"/>
       <text x="122" y="45" text-anchor="middle" class="city">🇦🇪 Dubai</text>
-      <text x="122" y="100" text-anchor="middle" class="time">18:08<tspan class="seconds">:24</tspan></text>
+      <text x="122" y="100" text-anchor="middle" class="time">19:39<tspan class="seconds">:32</tspan></text>
       <text x="122" y="132" text-anchor="middle" class="date">Fri, 17 Jul · +04</text>
       <circle cx="30" cy="140" r="5" class="pulse-dot"/>
     </g>
     
 
-  <text x="625" y="360" text-anchor="middle" class="updated">Last update: 2026-07-17 14:08 UTC · auto-refresh by GitHub Actions</text>
+  <text x="625" y="360" text-anchor="middle" class="updated">Last update: 2026-07-17 15:39 UTC · auto-refresh by GitHub Actions</text>
 </svg>
